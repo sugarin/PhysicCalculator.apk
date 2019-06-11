@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kecepatan">
+
+    <Button
+        android:id="@+id/hitungBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="10dp"
+        android:text="Hitung"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/judulTV"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@drawable/headerkecepatan"
+        android:text="Menghitung Kecepatan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/waktuTV"
+        android:layout_width="115dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:text="Waktu (s)"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/jarakTV"
+        android:layout_width="115dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="90dp"
+        android:text="Jarak (m)"
+        android:textSize="24sp"
+        android:layout_marginLeft="210dp" />
+
+    <EditText
+        android:id="@+id/waktuField"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/jarakField"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="210dp" />
+
+    <TextView
+        android:id="@+id/hasilTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="360dp"
+        android:text="Hasil (m/s)"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/hasilField"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+
+
+    <!--<Button-->
+    <!--android:id="@+id/passBTN"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="500dp"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:text="Hitung Gaya dengan Hasil ini"-->
+    <!--android:textSize="15sp"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/hasilTV"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.507"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/judulTV"-->
+    <!--app:layout_constraintVertical_bias="0.0" />-->
+</RelativeLayout>
